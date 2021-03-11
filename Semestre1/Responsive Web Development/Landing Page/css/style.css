@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #d8d8d8;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  width: 100vw;
+  height: 8vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+}
+
+header img{
+  height: 8vh;
+}
+
+header ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+header li{
+  width: 170px;
+  height: 40px;
+  margin-right: 20px;
+  background: #0f3959;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+header a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 22px;
+}
+
+header li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.secao1{
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+.secao1 article{
+  width: 50vw;
+  height: 65%;
+}
+
+.secao1 article h1{
+  margin: 10px 0;
+  color: #0f3959;
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.secao1 article p{
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+
+.secao1 .botao{
+  width: 200px;
+  height: 40px;
+  border-radius: 0.2em;
+  background: #0f3959;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.botao a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 45px 5px 45px;
+}
+
+.botao a:hover{
+  font-weight: bold;
+}
+
+form{
+  width: 30vw;
+  height: 70vh;
+}
+
+legend{
+  color: #0f3959;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+form .formulario{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  background-color: #364450;
+  border-radius: 10px;
+}
+
+fieldset{
+  border:none;
+  padding: 10px 20px;
+  margin-bottom: 35px;
+}
+
+label{
+  color: #fff;
+}
+
+.w50{
+  width: 50%;
+}
+
+.w100{
+  width: 100%;
+}
+
+fieldset input,
+fieldset textarea{
+  width: 100%;
+  padding: 5px 0;
+  resize: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: #333;
+  border: none;
+  border-bottom: 1px solid #777;
+  outline: none;
+}
+
+fieldset input[type="submit"]{
+  cursor: pointer;
+  background: #27ecd4;
+  color: #354450;
+  border: none;
+  width: 150px;
+  padding: 12px;
+}
+
+fieldset input[type="submit"]:hover{
+  font-weight: bold;
+}
+
+.secao{
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+.secao article{
+  width: 45vw;
+}
+
+.secao article h2{
+  margin: 10px 0;
+  color: #0f3959;
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.secao article p{
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+
+.imagens1{
+  width: 40vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imagem-b2w{
+  width: 25vw;
+  height: 45vh;
+}
+
+.imagem-b2w img{
+  width: 25vw;
+  padding-bottom: 20px;
+}
+
+.imagem-empresas{
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imagem-empresas img{
+  width: 15vw;
+}
+
+.imagens2 img{
+  width: 40vw;
+}
+
+.imagens3 img{
+  width: 32vw;
+}
+
+.imagens4 img{
+  width: 39vw;
+}
+
+.secao article li{
+  margin: 20px;
+  font-size: 1.2em;
+}
+
+footer{
+  height: 15vh;
+  display: flex;
+  background: #fff;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grupo{
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.endereco{
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+}
+
+.endereco a{
+  color: #000;
+}
+
+.endereco a:hover{
+  color: #0f3959;
+  transition: 400ms;
+}
+
+.endereco p{
+  margin-left: 5px;
+}
+
+.redes-sociais a{
+  color: #000;
+  font-size: 1.8em;
+  margin-right: 5px;
+}
+
+.redes-sociais a:hover{
+  color: #0f3959;
+  transition: 400ms;
+}
+
+@media (max-width:850px) {
+  body{
+    font-size: 20px;
+  }
+  header{
+    height: 25vh;
+    flex-direction: column;
+    position: static;
+  }
+  header li{
+    width: 200px;
+    margin: 10px;
+  }
+  .secao1{
+    height: auto;
+    flex-direction: column;
+  }
+  .secao1 article{
+    width: 50vw;
+    height: auto;
+  }
+  .w50{
+    width: 100%;
+  }
+  form{
+    width: 50vw;
+    height: 100vh;
+  }
+  .secao{
+    padding: 20px 0;
+    height: auto;
+    flex-direction:column;
+  }
+  .imagem-b2w{
+    width: 100vw;
+    height: 60vh;
+  }
+  .imagem-b2w img{
+    width: 80vw;
+  }
+  .imagem-empresas img{
+    width: 30vw;
+  }
+  .imagens2 img{
+    width: 80vw;
+  }
+  .imagens3 img{
+    width: 80vw;
+  }
+  .imagens4 img{
+    width: 80vw;
+  }
+  footer{
+    height: 20vh;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:650px) {
+  header{
+    height: 50vh;
+  }
+  header ul{
+    flex-direction: column;
+  }
+  .imagem-b2w{
+    width: 100vw;
+    height: 40vh;
+  }
+}

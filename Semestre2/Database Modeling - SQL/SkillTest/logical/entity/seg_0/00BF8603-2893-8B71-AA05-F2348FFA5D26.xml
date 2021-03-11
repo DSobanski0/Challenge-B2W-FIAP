@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00BF8603-2893-8B71-AA05-F2348FFA5D26" name="T_SKT_QUESTION_QUESTOES">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-09-19 13:44:54 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_question_questao" id="D15FAD14-AB32-9422-8B99-5C565688E929">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-10-29 13:39:43 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_questionario" id="D09AC0F0-1E7F-14E6-D863-29CC8A076B5A">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-09-19 13:48:15 UTC</createdTime>
+<generatorID>26B184F4-BFC6-479D-C816-2A5311A52265</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<referedAttribute>C47B84ED-7B3A-0CDA-E0FA-6A3EE83416FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_questao" id="C9CEA72A-4F75-61DC-0413-4A3792C156A9">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-09-19 13:48:33 UTC</createdTime>
+<generatorID>FB785597-67B3-F595-7C8E-EDDECE50F613</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<referedAttribute>775AE729-F914-087E-F092-FB53DEF864C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="361DA5C0-3A6A-48E9-C037-3BF16238C05C" name="T_SKT_QUESTION_QUESTOES PK">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-10-28 00:40:43 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D15FAD14-AB32-9422-8B99-5C565688E929</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

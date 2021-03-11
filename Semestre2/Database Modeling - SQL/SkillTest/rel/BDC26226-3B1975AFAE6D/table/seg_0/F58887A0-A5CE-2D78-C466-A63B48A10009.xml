@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F58887A0-A5CE-2D78-C466-A63B48A10009" name="T_SKT_FUNC_CARGO">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>F3FFCCC3-C780-4C05-86F1-BE7E833C37EB</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_func_cargo" id="DD5BA7D9-30DB-F9C7-78E4-F55883ECC2BC">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>D3BA2E13-B56A-0D25-0542-DC4B670E5045</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_funcionario" id="690588B3-EDEA-5509-FBBB-17FE591B5D05">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>E705554D-5734-2604-812B-8E14C43594F9</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87CB8793-3D3C-C805-C61E-35900BD51DD5" referredColumn="91265D34-683E-7F63-CF39-C87CA1E432DD"/>
+</associations>
+</Column>
+<Column name="cd_cargo" id="0B92A4EA-33ED-D174-6ECD-BFD0F2649B6C">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>67E19568-E7C3-F5A8-BE64-DC9BCF9EF5CB</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B90C925-66F9-54B8-1A7F-43C6E0E9C613" referredColumn="59769FC7-44B5-9F16-6DD3-EA13A35D1C2B"/>
+</associations>
+</Column>
+<Column name="dt_entrada" id="F93E1B94-30C5-8967-814B-980CC4042EBF">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>28A0194A-DCD8-307B-BA30-B489637FB644</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_saida" id="45ED9FA8-FB0E-82C9-A545-FBBF49E971C2">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>36D44034-1108-3B8E-550F-B207EB0E3702</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CFE2FF7-42E6-81EA-3AAD-09F2879FA997" name="PK_SKT_FUNC_CARGO">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>C0C195C2-0058-A5E6-271F-4EC7328C541C</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD5BA7D9-30DB-F9C7-78E4-F55883ECC2BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4422870F-76D2-E0CB-DF5F-3F1BB5DF1B66" name="FK_CARGO_FUNCIONARIO">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>AE670062-7A8F-34C7-5B4A-D3FF0CBBD92D</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B92A4EA-33ED-D174-6ECD-BFD0F2649B6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCBFF564-1A8C-7946-0F13-B47BF222F2D5" name="FK_FUNCIONARIO_CARGO">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>3F3D4738-A45C-962A-90E8-86FD0DDBA2E2</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="690588B3-EDEA-5509-FBBB-17FE591B5D05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

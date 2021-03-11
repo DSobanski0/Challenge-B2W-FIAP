@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cadastro de funcionários</title>
+</head>
+
+<body>
+
+    <main>
+        <nav class="navbar">
+            <ul class="cima">
+                <img src="./images/foto.png" alt="perfil">
+            </ul>
+
+            <ul class="meio">
+                <li><a href="./index.html"><img src="./images/lista-funcionarios.png" alt="Lista de funcionários"></a>
+                </li>
+                <li><a href="./cadastra-cargo.html"><img src="./images/add-cargo.png" alt="Adiciona cargo"></a></li>
+                <li><a href="./funcionario.html"><img src="./images/add-funcionario.png" alt="Adiciona funcionário"></a>
+                </li>
+            </ul>
+
+            <ul class="fim"><a href="./ajuda.html"><img src="./images/help.png" alt="Ajuda"></a></ul>
+        </nav>
+
+        <div class="content">
+            <header>
+                <input type="search" id="busca" placeholder="Busca">
+            </header>
+
+            <div class="cadastro funcionario">
+                <div class="cadastro-usuario">
+                    <form action="" id="usuario">
+                        <h2>CADASTRO DE USUÁRIOS</h2>
+                        <fieldset>
+                            <div class="flex">
+                                <input type="text" id="name" required placeholder="Nome">
+                                <input type="text" id="last-name" required placeholder="Sobrenome">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="flex">
+                                <input type="number" id="cpf" required placeholder="CPF">
+                                <input type="date" placeholder="Data de nascimento">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <input type="email" id="email" required placeholder="Email">
+                        </fieldset>
+                    </form>
+
+                </div>
+
+                <div class="selecao-cargo">
+                    <form action="" id="cargo">
+                        <h2>CARGO</h2>
+                        <fieldset>
+                            <select name="" id="" required>
+                                <option value="">Selecione a área</option>
+                                <option value="Infra">Infra</option>
+                                <option value="Banco-dados">Banco de dados</option>
+                                <option value="BackEnd">BackEnd</option>
+                            </select>
+                        </fieldset>
+
+                        <fieldset>
+                            <select name="" id="" required>
+                                <option value="">Selecione o cargo</option>
+                                <option value="Analista de sistemas">Analista de sistemas</option>
+                                <option value="Analista de dados">Analista de dados</option>
+                                <option value="Desenvolvedor Java">Desenvolvedor Java</option>
+                            </select>
+                        </fieldset>
+
+                        <fieldset>
+                            <input type="date" name="" id="" required placeholder="Data de entrada">
+                        </fieldset>
+
+                        <fieldset>
+                            <input type="date" name="" id="" required placeholder="Data de saída">
+                        </fieldset>
+
+                        <fieldset class="bt-salva">
+                            <button>Salvar</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

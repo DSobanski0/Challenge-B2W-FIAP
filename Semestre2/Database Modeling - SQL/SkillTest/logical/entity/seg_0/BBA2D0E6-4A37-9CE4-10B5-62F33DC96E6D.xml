@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBA2D0E6-4A37-9CE4-10B5-62F33DC96E6D" name="T_SKT_FUNC_CARGO_QUESTION">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-09-19 13:33:36 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_func_cargo_quest" id="BC3B9745-1E61-320F-4FE7-653102AE6701">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-01 13:27:03 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_func_cargo" id="D55F44CD-68C4-1BEA-983D-73D9FBD88737">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-01 13:26:30 UTC</createdTime>
+<generatorID>20424504-0794-E296-EDE5-B5F3FA85799C</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<referedAttribute>D3BA2E13-B56A-0D25-0542-DC4B670E5045</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_questionario" id="70713BE1-5822-B819-7876-ECF9B698DFC5">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-09-19 13:43:34 UTC</createdTime>
+<generatorID>B96B5446-8A19-8D9F-7D2C-7D7C686CA7B5</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<referedAttribute>C47B84ED-7B3A-0CDA-E0FA-6A3EE83416FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="DC118DDA-6DF4-9515-F5AB-83DEF805ED3F">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-09-19 13:34:04 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="1A7DDFD7-6BAA-D5E1-C245-F547A13412C4">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-09-19 13:34:15 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13856C12-49C1-1348-B98F-1E1E268EBB41" name="T_SKT_FUNC_CARGO_QUESTION PK">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-09-19 13:35:14 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC3B9745-1E61-320F-4FE7-653102AE6701</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

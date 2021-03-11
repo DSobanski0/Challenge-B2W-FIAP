@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C8ED11C-921B-FF0C-D44C-8C5C070E4610" name="T_SKT_QUESTION_QUESTOES">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>00BF8603-2893-8B71-AA05-F2348FFA5D26</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_question_questao" id="F069477F-1716-FAC4-75F6-A3891F00FF8A">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>D15FAD14-AB32-9422-8B99-5C565688E929</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_questionario" id="B3D9DC5B-64BA-69B8-3750-66D041979D39">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>D09AC0F0-1E7F-14E6-D863-29CC8A076B5A</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DC90849-BC30-8FA4-F9A1-493647E5C125" referredColumn="E59A17AC-45EF-7D4C-2B99-8115381E5339"/>
+</associations>
+</Column>
+<Column name="cd_questao" id="847C2EE5-6B9C-FD2B-94A3-DEACDCE3EC5F">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>C9CEA72A-4F75-61DC-0413-4A3792C156A9</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0109C88-7090-7B51-472D-5B21A1815755" referredColumn="5B2DB40B-ED76-8D1F-465D-FBBACEA7B039"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="131DE71D-8BDD-2D6B-3BD1-A28C1952762A" name="PK_SKT_QUESTION_QUESTOES">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>361DA5C0-3A6A-48E9-C037-3BF16238C05C</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F069477F-1716-FAC4-75F6-A3891F00FF8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20905266-8B98-59E5-8FF5-F71F867EA337" name="FK_QUESTAO_QUESTION">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>FB785597-67B3-F595-7C8E-EDDECE50F613</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="847C2EE5-6B9C-FD2B-94A3-DEACDCE3EC5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22AE53A0-8E4F-B650-052D-EB2A183B7F2B" name="FK_QUESTION_QUESTOES">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>26B184F4-BFC6-479D-C816-2A5311A52265</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3D9DC5B-64BA-69B8-3750-66D041979D39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

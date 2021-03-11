@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_QUESTAO_QUESTION" directorySegmentName="seg_0" id="FB785597-67B3-F595-7C8E-EDDECE50F613">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-09-19 13:48:33 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<sourcePk>16A3776B-BE0C-B9FE-A4ED-DEFD75F3D3B5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D8C1AF59-C511-AE23-6DDE-58B50B5DAB27</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>00BF8603-2893-8B71-AA05-F2348FFA5D26</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

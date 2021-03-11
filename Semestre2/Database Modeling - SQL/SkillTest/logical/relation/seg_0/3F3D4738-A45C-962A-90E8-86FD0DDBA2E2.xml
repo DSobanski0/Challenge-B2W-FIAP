@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_FUNCIONARIO_CARGO" directorySegmentName="seg_0" id="3F3D4738-A45C-962A-90E8-86FD0DDBA2E2">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-09-19 13:32:24 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<sourcePk>CAB505D9-6662-1E4D-9B9A-B5464432C3AB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3C28968D-632B-AF1F-92A0-0B0130EB3C84</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F3FFCCC3-C780-4C05-86F1-BE7E833C37EB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ajuda</title>
+</head>
+
+<body>
+    <main>
+        <nav class="navbar">
+            <ul class="cima">
+                <img src="./images/foto.png" alt="perfil">
+            </ul>
+
+            <ul class="meio">
+                <li><a href="./index.html"><img src="./images/lista-funcionarios.png" alt="Lista de funcionários"></a>
+                </li>
+                <li><a href="./cadastra-cargo.html"><img src="./images/add-cargo.png" alt="Adiciona cargo"></a></li>
+                <li><a href="./funcionario.html"><img src="./images/add-funcionario.png" alt="Adiciona funcionário"></a>
+                </li>
+            </ul>
+
+            <ul class="fim"><a href=""><img src="./images/help.png" alt="Ajuda"></a></ul>
+        </nav>
+
+        <div class="principal">
+            <h2>Tire suas duvidas</h2>
+            <div class="conversa">
+                <span>Digitando ...</span>
+            </div>
+            <input type="text" id="pergunta" name="pergunta" class="campo" placeholder="Digite sua pergunta" />
+            <button id="enviar" onclick=carregarDados()>Enviar</button>
+        </div>
+        <script type="text/javascript" src="js/script.js"></script>
+
+    </main>
+</body>
+
+</html>

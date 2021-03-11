@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6CC64576-A055-0252-29EF-A4FB60A382CC" name="T_SKT_RESPOSTAS">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-09-19 13:48:54 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_resposta" id="59AF34A1-5927-53BE-0B2A-6B3D8BEAA8DD">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-10-28 00:44:07 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_func_cargo_quest" id="47025935-7ADB-9C81-6773-7569378DDDBB">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-01 13:27:27 UTC</createdTime>
+<generatorID>65869D79-A739-F15C-19C3-F71819FFCFA2</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<referedAttribute>BC3B9745-1E61-320F-4FE7-653102AE6701</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_question_questao" id="649E9754-A90D-2274-8A4C-6CA2C02B0D16">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-10-29 13:40:24 UTC</createdTime>
+<generatorID>50888DBF-3440-63BE-218E-B3F037C83188</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<referedAttribute>D15FAD14-AB32-9422-8B99-5C565688E929</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_resposta" id="CAF745A3-9B41-18BC-53FF-6D98B6A40FE9">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-09-19 13:49:11 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_resposta" id="DF48C2E2-DE44-B860-9AFE-89E555D1AFBB">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-01 13:58:04 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="751D2D2A-2F14-17B3-B536-12C00F0F0265" name="T_SKT_RESPOSTAS PK">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-10-28 00:44:30 UTC</createdTime>
+<ownerDesignName>SkillTest</ownerDesignName>
+<engineerTo>
+<item key="BDC26226-D90C-8684-D712-3B1975AFAE6D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59AF34A1-5927-53BE-0B2A-6B3D8BEAA8DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6DC90849-BC30-8FA4-F9A1-493647E5C125" containerWithKeyObject="5C8ED11C-921B-FF0C-D44C-8C5C070E4610" localFKIndex="22AE53A0-8E4F-B650-052D-EB2A183B7F2B" name="FK_QUESTION_QUESTOES">
+<createdBy>dsoba</createdBy>
+<createdTime>2020-11-02 16:35:27 UTC</createdTime>
+<generatorID>26B184F4-BFC6-479D-C816-2A5311A52265</generatorID>
+<ownerDesignName>SkillTest</ownerDesignName>
+<referredTableLongName>T_SKT_QUESTIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F109CBAE-987B-BDA7-5D34-49F97753EBCD</referredTableID>
+<keyObject>9FB26662-D734-57C5-3325-0E00380355AA</keyObject>
+<referredKeyID>9FB26662-D734-57C5-3325-0E00380355AA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_questionario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
